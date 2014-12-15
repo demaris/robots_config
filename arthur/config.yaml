@@ -76,7 +76,7 @@ pau2motors:
               max: -0.4
           hardware:
             name: pololu
-            topic: dmitry_eyes/cmd_pololu
+            topic: arthur_eyes/cmd_pololu
             id: 2
             speed: 200
             acceleration: 100
@@ -94,7 +94,7 @@ pau2motors:
               max: -0.8
           hardware:
             name: pololu
-            topic: dmitry_eyes/cmd_pololu
+            topic: arthur_eyes/cmd_pololu
             id: 1
             speed: 200
             acceleration: 100
@@ -112,7 +112,7 @@ pau2motors:
               max: -0.8
           hardware:
             name: pololu
-            topic: dmitry_eyes/cmd_pololu
+            topic: arthur_eyes/cmd_pololu
             id: 0
             speed: 200
             acceleration: 100
