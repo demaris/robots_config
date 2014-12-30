@@ -1,4 +1,4 @@
-reye_yaw:
+Eye_R:
   pololu_id: 0
   motor_id: 0
   init: 1498
@@ -10,7 +10,7 @@ reye_yaw:
     min_angle: -90
     max_pulse: 2175
     max_angle: 90
-leye_yaw:
+Eye_L:
   pololu_id: 0
   motor_id: 1
   init: 1498
@@ -22,7 +22,7 @@ leye_yaw:
     min_angle: -90
     max_pulse: 2175
     max_angle: 90
-eyes_pitch:
+Eyes_Pitch:
   pololu_id: 0
   motor_id: 2
   init: 1498
