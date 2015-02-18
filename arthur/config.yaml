@@ -50,6 +50,8 @@ jaw_controller:
         min: 425
         max: 715
 
+# Robot voice
+voice: jak
 #Pau2Motors config
 pau2motors:
     topics:
