@@ -83,8 +83,8 @@ pau2motors:
             property: m_eyeGazeLeftPitch
           function:
             - name: linear
-              min: 0.252
-              max: -0.342
+              min: -0.342
+              max: 0.252
           hardware:
             name: pololu
             topic: right/command
@@ -525,13 +525,13 @@ pau2motors:
             - name: quaternion2euler
               axis: z
             - name: linear
-              scale: -2.92
+              scale: -2.0
               translate: 0
           hardware:
             name: dynamixel
             topic: base_controller/command
-        min: -1.5
-        max: 1.5
+        min: -2.5
+        max: 2.5
 
       neck1:
         binding:
