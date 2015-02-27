@@ -1,6 +1,6 @@
 motors:
   - name: neck0
-    topic: neck0
+    topic: base
     labelleft: "Yaw"
     labelright: ""
     default: 0
@@ -8,7 +8,7 @@ motors:
     max: 3.14
 
   - name: neck1
-    topic: neck1
+    topic: base_right
     labelleft: "Right Base Hinge"
     labelright: ""
     default: 0
@@ -16,7 +16,7 @@ motors:
     max: 0.6
 
   - name: neck2
-    topic: neck2
+    topic: base_left
     labelleft: "Left Base Hinge"
     labelright: ""
     default: 0
@@ -24,7 +24,7 @@ motors:
     max: 0.6
 
   - name: neck3
-    topic: neck3
+    topic: neck_right
     labelleft: "Right Neck Hinge"
     labelright: ""
     default: 0
@@ -32,7 +32,7 @@ motors:
     max: 0.6
 
   - name: neck4
-    topic: neck4
+    topic: neck_left
     labelleft: "Left Neck Hinge"
     labelright: ""
     default: 0
