@@ -66,6 +66,7 @@ neck_left_controller:
 
 # Robot voice
 voice: giles
+
 #Pau2Motors config
 pau2motors:
     topics:
@@ -74,8 +75,7 @@ pau2motors:
         no_pau: Eyes_Pitch;Eye_L;Eye_R;EyeLid_U_L;EyeLid_L_L;Eyelid_U_R;EyeLid_L_R;Jaw_open;Smile2_L;Smile_R;Smile_L
 
     motors:
-    # ---Neck---
-
+      # ---Eyes---
       Eyes_Pitch:
         binding:
           parser:
@@ -214,6 +214,7 @@ pau2motors:
         min: -0.785
         max: 0.785
 
+      # ---- Jaw and face ----
       Jaw_open:
         binding:
           parser:
