@@ -2,34 +2,36 @@ expressions:
   - Neutral:
       Eyes_Pitch: 0.606
       Eye_L: 0.54
-      Eye_R: 0.487
-      EyeLid_U_L: 0.398
+      Eye_R: 0.571
+      EyeLid_U_L: 0.443
       EyeLid_L_L: 0.534
-      Eyelid_U_R: 0.562
+      Eyelid_U_R: 0.629
       EyeLid_L_R: 0.591
-      Jaw_open: 0.124
+      Jaw_open: 0.157
       Jaw_Forward_L: 0.539
       Jaw_Forward_R: 0.011
-      Lower_Lip_C: 0.146
-      Lower_Lip_Roll_C: 0.528
-      Lower_lip_L: 0.375
+      Lower_Lip_C: 0.337
+      Lower_Lip_Roll_C: 0.551
+      Lower_lip_L: 0.125
       Lower_Lip_Roll_L: 0.443
-      Lower_Lip_R: 0.386
+      Lower_Lip_R: 0.636
       Lower_Lip_Roll_R: 0.551
-      Lip_Upper_L: 0.58
+      Lip_Upper_L: 0.409
       Sneer_R: 0.011
       Smile2_L: 0.09
+      Smile_R: 0.371
       Inner_Brow_R_UD: 0.5
-      Lip_Upper_R: 0.534
+      Lip_Upper_R: 0.614
       Sneer_L: 0.966
-      Upper_Lip_Forward: 0.225
+      Upper_Lip_Forward: 0.191
       Lower_Lip_Forward: 0.629
       Brow_Inner_L: 0.432
-      Lip_Upper_C: 0.602
-      Smile_L: 0.27
+      Lip_Upper_C: 0.534
+      Smile_L: 0.719
       Outer_Brow_L: 0.227
       Frown_R: 0.045
       Inner_Bwow_L: 0.011
+      Brow_Outer_R: 0.557
   - Happy:
       Eyes_Pitch: 0.636
       Eye_L: 0.54

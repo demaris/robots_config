@@ -71,9 +71,9 @@ voice: giles
 pau2motors:
     topics:
         neck_pau: neck0;neck1;neck2;neck3;neck4
-        head_pau: Eyes_Pitch;Eye_L;Eye_R;EyeLid_U_L;EyeLid_L_L;Eyelid_U_R;EyeLid_L_R;Lower_Lip_C;Lower_lip_L;Lower_Lip_R;Lip_Upper_L;Sneer_R;Smile2_L;Smile_R;Inner_Brow_R_UD;Sneer_L;Brow_Inner_L;Lip_Upper_C;Smile_L;Outer_Brow_L;Brow_Outer_R
+        head_pau: Eyes_Pitch;Eye_L;Eye_R;EyeLid_U_L;EyeLid_L_L;Eyelid_U_R;EyeLid_L_R;Sneer_R;Smile2_L;Smile_R;Inner_Brow_R_UD;Sneer_L;Brow_Inner_L;Smile_L;Outer_Brow_L;Brow_Outer_R
         no_pau: Eyes_Pitch;Eye_L;Eye_R;EyeLid_U_L;EyeLid_L_L;Eyelid_U_R;EyeLid_L_R;Jaw_open;Smile2_L;Smile_R;Smile_L
-        lips_pau: Jaw_open
+        lips_pau: Jaw_open;Lower_Lip_C;Lower_lip_L;Lower_Lip_R;Lip_Upper_L;Lip_Upper_C
 
     motors:
       # ---Eyes---
