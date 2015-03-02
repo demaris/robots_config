@@ -66,6 +66,7 @@ neck_left_controller:
 
 # Robot voice
 voice: giles
+lipsync: True
 
 #Pau2Motors config
 pau2motors:

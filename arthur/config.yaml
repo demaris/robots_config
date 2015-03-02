@@ -52,6 +52,8 @@ jaw_controller:
 
 # Robot voice
 voice: jak
+lipsync: False
+
 #Pau2Motors config
 pau2motors:
     topics:
