@@ -125,7 +125,7 @@ Smile_L:
   calibration:
     min_pulse: 830
     min_angle: -45
-    max_pulse: 1490
+    max_pulse: 1630
     max_angle: 45
 
 Lip-Lower_L:

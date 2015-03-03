@@ -261,7 +261,7 @@ pau2motors:
           function:
             - name: linear
               min: 0
-              max: 0.6
+              max: 0.7
           hardware:
             name: pololu
             topic: face/command
@@ -278,8 +278,8 @@ pau2motors:
             shapekey: lips-smile.L
           function:
             - name: linear
-              min: 0.9
-              max: 1
+              min: 0.7
+              max: 0
           hardware:
             name: pololu
             topic: face/command
