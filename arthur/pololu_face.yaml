@@ -196,14 +196,14 @@ Lip-Lower_R:
 Lip-Lower_C:
   pololu_id: 0
   motor_id: 15
-  init: 1743
-  min: 1475
-  max: 2010
+  init: 1443
+  min: 1100
+  max: 1800
   reverse: false
   calibration:
-    min_pulse: 1475
+    min_pulse: 1100
     min_angle: -45
-    max_pulse: 2010
+    max_pulse: 1800
     max_angle: 45
 
 Brow-Inner_L:

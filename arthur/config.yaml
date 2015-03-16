@@ -7,7 +7,7 @@ rotate_controller:
     joint_speed: 0.8
     motor:
         id: 1
-        init: 2000
+        init: 1870
         min: 1392
         max: 2576
         acceleration: 10
@@ -20,8 +20,8 @@ hinge_right_controller:
     joint_speed: 0.3
     motor:
         id: 2
-        init: 1900
-        min: 1680
+        init: 1865
+        min: 1695
         max: 2250
         acceleration: 10
 hinge_left_controller:
@@ -33,9 +33,9 @@ hinge_left_controller:
     joint_speed: 0.3
     motor:
         id: 3
-        init: 2080
+        init: 2173
         min: 1770
-        max: 2300
+        max: 2320
         acceleration: 10
 jaw_controller:
     controller:
@@ -105,7 +105,7 @@ pau2motors:
             - name: quaternion2euler
               axis: z
             - name: linear
-              scale: -1
+              scale: -1.35
               translate: 0
           hardware:
             name: dynamixel
@@ -554,8 +554,8 @@ pau2motors:
             property: m_eyeGazeLeftPitch
           function:
             - name: linear
-              min: -0.349
-              max: 0.349
+              min: 0.524
+              max: -0.524
           hardware:
             name: pololu
             topic: eyes/command

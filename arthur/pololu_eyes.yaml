@@ -14,28 +14,28 @@ Brow-Inner_R:
 Eye_R:
   pololu_id: 0
   motor_id: 0
-  init: 1436
-  min: 1197
-  max: 1675
+  init: 1486
+  min: 1219
+  max: 1753
   reverse: false
   calibration:
-    min_pulse: 1197
-    min_angle: -25
-    max_pulse: 1675
-    max_angle: 25
+    min_pulse: 1219
+    min_angle: -30
+    max_pulse: 1753
+    max_angle: 30
 
 Eye_L:
   pololu_id: 0
   motor_id: 1
-  init: 1479
-  min: 1240
-  max: 1717
+  init: 1524
+  min: 1256
+  max: 1792
   reverse: false
   calibration:
-    min_pulse: 1240
-    min_angle: -25
-    max_pulse: 1717
-    max_angle: 25
+    min_pulse: 1256
+    min_angle: -30
+    max_pulse: 1792
+    max_angle: 30
 
 Eyes_Pitch:
   pololu_id: 0
