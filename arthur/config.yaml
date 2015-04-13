@@ -43,7 +43,7 @@ jaw_controller:
         module: joint_position_controller
         type: JointPositionController
     joint_name: jaw_joint
-    joint_speed: 1
+    joint_speed: 10
     motor:
         id: 4
         init: 550
@@ -52,13 +52,14 @@ jaw_controller:
 
 # Robot voice
 voice: jak
-lipsync: False
+lipsync: True
 
 #Pau2Motors config
 pau2motors:
     topics:
         neck_pau: neck_hinge_right;neck_hinge_left;neck_base
-        head_pau: jaw;Eyelid-Lower_R;Eyelid-Lower_L;Eyelid-Upper_R;Eyelid-Upper_L;Frown_R;Brow-Outer_L;Smile_R;Smile_L;Lip-Lower_L;Lip-Upper_C;Sneer_R;Lip-Upper_L;Lip-Lower_R;Lip-Lower_C;Brow-Inner_L;Frown_L;Lip-Upper_R;Brow_Outer_R;Brow-Inner_R;Eye_R;Eye_L;Eyes_Pitch;Sneer_L
+        head_pau: Eyelid-Lower_R;Eyelid-Lower_L;Eyelid-Upper_R;Eyelid-Upper_L;Frown_R;Brow-Outer_L;Sneer_R;Brow-Inner_L;Frown_L;Brow_Outer_R;Brow-Inner_R;Eye_R;Eye_L;Eyes_Pitch;Sneer_L
+        lips_pau: jaw;Lip-Upper_L;Lip-Lower_R;Lip-Lower_C;Lip-Upper_R;Lip-Lower_L;Lip-Upper_C;Smile_R;Smile_L
     motors:
     # ---Neck---
 
@@ -278,8 +279,8 @@ pau2motors:
             shapekey: lips-smile.L
           function:
             - name: linear
-              min: 0.9
-              max: 1
+              min: 0.6
+              max: 0
           hardware:
             name: pololu
             topic: face/command

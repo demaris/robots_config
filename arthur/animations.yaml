@@ -1,32 +1,62 @@
 animations:
-  - Happy:
-    # Set to neutral at first
-    - name: Neutral
-      motors:
-        Smile_L: 0
-        Smile_R: 0
-      frames: 5
-      speed: 0
-      acceleration: 0.5
-    - name: Smile1
-      motors:
-        Smile_L: 1
-        Smile_R: 0.9
-      frames: 25
-      speed: 0
-      acceleration: 0.4
-    - name: Smile2
-      motors:
-        Smile_L: 0.5
-        Smile_R: 0.2
-        Eye_Brow_L: 0.3
-      frames: 25
-      speed: 0
-      acceleration: 0.4
-    - name: Neutral2
-      motors:
-        Smile_L: 1
-        Smile_R: 0.1
-      frames: 25
-      speed: 0
-      acceleration: 0.4
+- Happy:
+  - acceleration: 0.5
+    frames: 5
+    motors: {Smile_L: 0, Smile_R: 0}
+    name: Neutral
+    speed: 0
+  - acceleration: 0.4
+    frames: 25
+    motors: {Smile_L: 1, Smile_R: 0.9}
+    name: Smile1
+    speed: 0
+  - acceleration: 0.4
+    frames: 25
+    motors: {Eye_Brow_L: 0.3, Smile_L: 0.5, Smile_R: 0.2}
+    name: Smile2
+    speed: 0
+  - acceleration: 0.4
+    frames: 25
+    motors: {Smile_L: 1, Smile_R: 0.1}
+    name: Neutral2
+    speed: 0
+- Smile:
+  - acceleration: 0
+    frames: 15
+    motors: {Brow-Inner_L: 0.5385105028644176, Brow-Inner_R: 1, Brow-Outer_L: 0.4080203691915977,
+      Brow_Outer_R: 0.760025461489497, Cheek-Squint_L: 0.0018484288354898351, Cheek-Squint_R: 0.001709401709401711,
+      Eye_L: 0.518348623853211, Eye_R: 0.5, Eyelid-Lower_L: 0.4042011457670273, Eyelid-Lower_R: 0.6124893071000855,
+      Eyelid-Upper_L: 0.41106602537608516, Eyelid-Upper_R: 0.5694267515923567, Eyes_Pitch: 0.5,
+      Frown_L: 0.007643312101910834, Frown_R: 0.9955414012738855, Jaw_Open: 0.23529411764705882,
+      Lip-Lower_C: 0.7199236155315085, Lip-Lower_L: 0.24012738853503188, Lip-Lower_R: 0.751750477402928,
+      Lip-Upper_C: 0.46339910884786756, Lip-Upper_L: 0.6012738853503184, Lip-Upper_R: 0.38598726114649684,
+      Neck 0: 0.5, Neck 1: 0.5, Neck 2: 0.5, Smile_L: 1, Smile_R: 0, Sneer_L: 0.9923615531508593,
+      Sneer_R: 1}
+    name: Start
+    speed: 0
+  - acceleration: 0
+    frames: 40
+    motors: {Brow-Inner_L: 0.5385105028644176, Brow-Inner_R: 1, Brow-Outer_L: 0.4080203691915977,
+      Brow_Outer_R: 0.760025461489497, Cheek-Squint_L: 0.8554772090199134, Cheek-Squint_R: 0.8648656433839854,
+      Eye_L: 0.518348623853211, Eye_R: 0.5, Eyelid-Lower_L: 0.34605595462813105, Eyelid-Lower_R: 0.6124893071000855,
+      Eyelid-Upper_L: 0.41106602537608516, Eyelid-Upper_R: 0.5694267515923567, Eyes_Pitch: 0.5,
+      Frown_L: 0.007643312101910834, Frown_R: 0.9955414012738855, Jaw_Open: 0.6870263946338264,
+      Lip-Lower_C: 0.7199236155315085, Lip-Lower_L: 0.24012738853503188, Lip-Lower_R: 0.751750477402928,
+      Lip-Upper_C: 0.46339910884786756, Lip-Upper_L: 0.6012738853503184, Lip-Upper_R: 0.38598726114649684,
+      Neck 0: 0.5410665706351607, Neck 1: 0.3865535986203686, Neck 2: 0.5087266462599717,
+      Smile_L: 0.39994927854809575, Smile_R: 1, Sneer_L: 0.9923615531508593, Sneer_R: 1}
+    name: Smile
+    speed: 0
+  - acceleration: 0
+    frames: 30
+    motors: {Brow-Inner_L: 0.5385105028644176, Brow-Inner_R: 1, Brow-Outer_L: 0.4080203691915977,
+      Brow_Outer_R: 0.760025461489497, Cheek-Squint_L: 0.0018484288354898351, Cheek-Squint_R: 0.001709401709401711,
+      Eye_L: 0.518348623853211, Eye_R: 0.5, Eyelid-Lower_L: 0.4042011457670273, Eyelid-Lower_R: 0.6124893071000855,
+      Eyelid-Upper_L: 0.41106602537608516, Eyelid-Upper_R: 0.5694267515923567, Eyes_Pitch: 0.5,
+      Frown_L: 0.007643312101910834, Frown_R: 0.9955414012738855, Jaw_Open: 0.23529411764705882,
+      Lip-Lower_C: 0.7199236155315085, Lip-Lower_L: 0.24012738853503188, Lip-Lower_R: 0.751750477402928,
+      Lip-Upper_C: 0.46339910884786756, Lip-Upper_L: 0.6012738853503184, Lip-Upper_R: 0.38598726114649684,
+      Neck 0: 0.5, Neck 1: 0.5, Neck 2: 0.5, Smile_L: 1, Smile_R: 0, Sneer_L: 0.9923615531508593,
+      Sneer_R: 1}
+    name: End
+    speed: 0

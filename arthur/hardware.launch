@@ -29,7 +29,7 @@
 
     <node pkg="ros_pololu_servo" type="ros_pololu_servo_node" name="face_pololu_node" output="screen">
         <param name="pololu_motors_yaml" value="$(find robots_config)/arthur/pololu_face.yaml" />
-        <param name="port_name" value="/dev/serial/by-id/usb-Pololu_Corporation_Pololu_Mini_Maestro_24-Channel_USB_Servo_Controller_00080396-if00" />
+        <param name="port_name" value="/dev/serial/by-id/usb-Pololu_Corporation_Pololu_Mini_Maestro_24-Channel_USB_Servo_Controller_00080372-if00" />
         <param name="topic_prefix" value="face/" />
     </node>
 </launch>

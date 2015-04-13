@@ -9,7 +9,7 @@
 -->
 <launch>
     <node pkg="usb_cam" type="usb_cam_node" name="camera">
-      <param name="video_device" value="/dev/video0"/>
+      <param name="video_device" value="/dev/v4l/by-id/usb-KYE_Systems_Corp._USB_Camera_200901010001-video-index0"/>
       <param name="pixel_format" value="yuyv"/>
       <param name="width" value="640"/>
       <param name="height" value="480"/>
@@ -38,12 +38,10 @@
           expand_roi: 1.02
           flip_image: False
           feature_type: 0
-          camera_fov_x: 0.8
+          camera_fov_x: 1.42
         </rosparam>
 
         <param name="cascade_frontal_alt"
                value="$(find pi_face_tracker)/params/haarcascade_frontalface_alt.xml" />
-        <param name="cascade_frontal_alt2"
-               value="$(find pi_face_tracker)/params/haarcascade_frontalface_alt2.xml" />
   </node>
 </launch>

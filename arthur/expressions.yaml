@@ -1,28 +1,172 @@
 expressions:
-  - Neutral:
-      Cheek-Squint_L: 0
-      Cheek-Squint_R: -0.015
-      Eyelid-Lower_R: 0.606
-      Eyelid-Lower_L: 0.404
-      Eyelid-Upper_R: 0.568
-      Eyelid-Upper_L: 0.307
-      Frown_R: 1.011
-      Brow-Outer_L: 0.416
-      Smile_R: -0.011
-      Smile_L: 1.011
-      Lip-Lower_L: 0.239
-      Lip-Upper_C: 0.472
-      Sneer_R: 1.011
-      Lip-Upper_L: 0.602
-      Lip-Lower_R: 0.764
-      Lip-Lower_C: 0.73
-      Brow-Inner_L: 0.539
-      Frown_L: 0
-      Lip-Upper_R: 0.386
-      Brow_Outer_R: 0.764
-      Brow-Inner_R: 1.011
-      Eye_R: 0.5
-      Eye_L: 0.517
-      Eyes_Pitch: 0.5
-      Sneer_L: 1
-      Jaw_Open: 0.3
+- Neutral: {Brow-Inner_L: 0.539, Brow-Inner_R: 1, Brow-Outer_L: 0.416, Brow_Outer_R: 0.764,
+    Cheek-Squint_L: 0, Cheek-Squint_R: 0, Eye_L: 0.5812077638529509, Eye_R: 0.5, Eyelid-Lower_L: 0.404,
+    Eyelid-Lower_R: 0.606, Eyelid-Upper_L: 0.307, Eyelid-Upper_R: 0.568, Eyes_Pitch: 0.5,
+    Frown_L: 0, Frown_R: 1, Jaw_Open: 0.3, Lip-Lower_C: 0.73, Lip-Lower_L: 0.1442641015043405,
+    Lip-Lower_R: 0.764, Lip-Upper_C: 0.472, Lip-Upper_L: 0.602, Lip-Upper_R: 0.386,
+    Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873, Sneer_L: 1, Sneer_R: 1}
+- Happy: {Brow-Inner_L: 0.6891826688981769, Brow-Inner_R: 0.3888325317201064, Brow-Outer_L: 0.6336343158748055,
+    Brow_Outer_R: 0.764, Cheek-Squint_L: 1, Cheek-Squint_R: 0.9991217396912415, Eye_L: 0.517,
+    Eye_R: 0.5, Eyelid-Lower_L: 0.3016172722094339, Eyelid-Lower_R: 0.5968635905904907,
+    Eyelid-Upper_L: 0.307, Eyelid-Upper_R: 0.568, Eyes_Pitch: 0.3499716975363041,
+    Frown_L: 0, Frown_R: 1, Jaw_Open: 0.5638266827283444, Lip-Lower_C: 0.0010196286457999704,
+    Lip-Lower_L: 0.3665990380641277, Lip-Lower_R: 0.6003053040607826, Lip-Upper_C: 1,
+    Lip-Upper_L: 0.2887818102682022, Lip-Upper_R: 1, Smile_L: 0.3221320507521702,
+    Smile_R: 1, Sneer_L: 1, Sneer_R: 1}
+- Sad: {Brow-Inner_L: 0.7114020101075255, Brow-Inner_R: 0.11091386102037243, Brow-Outer_L: 0.0003830914083715805,
+    Brow_Outer_R: 1, Cheek-Squint_L: 0, Cheek-Squint_R: 0, Eye_L: 0.517, Eye_R: 0.5,
+    Eyelid-Lower_L: 0.404, Eyelid-Lower_R: 0.606, Eyelid-Upper_L: 0.6222842151078829,
+    Eyelid-Upper_R: 0.26654831661222345, Eyes_Pitch: 1, Frown_L: 0.9780201136035425,
+    Frown_R: 0, Jaw_Open: 0.3, Lip-Lower_C: 0.73, Lip-Lower_L: 0.239, Lip-Lower_R: 0.764,
+    Lip-Upper_C: 0.28987106436733123, Lip-Upper_L: 0.8223856580116915, Lip-Upper_R: 0.04421338005243632,
+    Smile_L: 1, Smile_R: 0, Sneer_L: 1, Sneer_R: 1}
+- evil:
+    Cheek-Squint_L: 1
+    Cheek-Squint_R: 1
+    Eyelid-Lower_R: 0.92593
+    Eyelid-Lower_L: 0.03049
+    Eyelid-Upper_R: 1
+    Eyelid-Upper_L: 0
+    Frown_R: 0.94984
+    Brow-Outer_L: 1
+    Smile_R: 1
+    Smile_L: 0.0098
+    Lip-Lower_L: 0.64741
+    Lip-Upper_C: 0.73
+    Sneer_R: 0
+    Lip-Upper_L: 0.12281
+    Lip-Lower_R: 0.2525
+    Lip-Lower_C: 1
+    Brow-Inner_L: 0
+    Frown_L: 0.02263
+    Lip-Upper_R: 0.92966
+    Sneer_L: 0
+    Brow_Outer_R: 0
+    Brow-Inner_R: 1
+    Jaw_Open: 0.1736
+- surprise:
+    Cheek-Squint_L: 0.0117
+    Cheek-Squint_R: 0.10977
+    Eyelid-Lower_R: 0
+    Eyelid-Lower_L: 1
+    Eyelid-Upper_R: 1
+    Eyelid-Upper_L: 0
+    Frown_R: 0.94984
+    Brow-Outer_L: 1
+    Smile_R: 0
+    Smile_L: 1
+    Lip-Lower_L: 0.64741
+    Lip-Upper_C: 1
+    Sneer_R: 0.99852
+    Lip-Upper_L: 0.12281
+    Lip-Lower_R: 0.2525
+    Lip-Lower_C: 0.73
+    Brow-Inner_L: 1
+    Frown_L: 0.02263
+    Lip-Upper_R: 0.92966
+    Sneer_L: 0.82235
+    Brow_Outer_R: 0
+    Brow-Inner_R: 0
+    Jaw_Open: 0.1736
+- angry:
+    Cheek-Squint_L: 0.0117
+    Cheek-Squint_R: 0.10977
+    Eyelid-Lower_R: 0.92593
+    Eyelid-Lower_L: 0.03049
+    Eyelid-Upper_R: 0.56471
+    Eyelid-Upper_L: 0.55952
+    Frown_R: 0
+    Brow-Outer_L: 1
+    Smile_R: 0
+    Smile_L: 1
+    Lip-Lower_L: 0.64741
+    Lip-Upper_C: 1
+    Sneer_R: 0.11325
+    Lip-Upper_L: 0.12281
+    Lip-Lower_R: 0.12465
+    Lip-Lower_C: 0.5
+    Brow-Inner_L: 0
+    Frown_L: 1
+    Lip-Upper_R: 0.92966
+    Sneer_L: 0.23529
+    Brow_Outer_R: 0
+    Brow-Inner_R: 1
+    Jaw_Open: 0.1736
+- afraid:
+    Cheek-Squint_L: 1
+    Cheek-Squint_R: 1
+    Eyelid-Lower_R: 0
+    Eyelid-Lower_L: 1
+    Eyelid-Upper_R: 1
+    Eyelid-Upper_L: 0
+    Frown_R: 0
+    Brow-Outer_L: 1
+    Smile_R: 0
+    Smile_L: 1
+    Lip-Lower_L: 0.64741
+    Lip-Upper_C: 1
+    Sneer_R: 0.99852
+    Lip-Upper_L: 0.12281
+    Lip-Lower_R: 0.2525
+    Lip-Lower_C: 0.73
+    Brow-Inner_L: 0
+    Frown_L: 1
+    Lip-Upper_R: 0.92966
+    Sneer_L: 0.82235
+    Brow_Outer_R: 0
+    Brow-Inner_R: 0.94827
+    Jaw_Open: 0.1736
+- disgusted:
+    Cheek-Squint_L: 1
+    Cheek-Squint_R: 1
+    Eyelid-Lower_R: 0.92593
+    Eyelid-Lower_L: 0.03049
+    Eyelid-Upper_R: 0.32941
+    Eyelid-Upper_L: 0.79762
+    Frown_R: 0
+    Brow-Outer_L: 0
+    Smile_R: 0
+    Smile_L: 1
+    Lip-Lower_L: 0
+    Lip-Upper_C: 1
+    Sneer_R: 0
+    Lip-Upper_L: 0.12281
+    Lip-Lower_R: 1
+    Lip-Lower_C: 0
+    Brow-Inner_L: 0
+    Frown_L: 1
+    Lip-Upper_R: 0.92966
+    Sneer_L: 0
+    Brow_Outer_R: 1
+    Brow-Inner_R: 1
+    Jaw_Open: 0.1736
+- vis_A-I: {Jaw_Open: 0.6870263946338264, Lip-Lower_C: 0.012129299250474266, Lip-Lower_L: 0.2776650634402128,
+    Lip-Lower_R: 0.7336213513168741, Lip-Upper_C: 0.6231611825075596, Lip-Upper_L: 0.4332995190320638,
+    Lip-Upper_R: 0.6445177087638617, Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873}
+- vis_F-V: {Jaw_Open: 0.3, Lip-Lower_C: 1, Lip-Lower_L: 0, Lip-Lower_R: 1, Lip-Upper_C: 0.9342319594384394,
+    Lip-Upper_L: 0.5889339746239148, Lip-Upper_R: 0.5555837341399468, Smile_L: 0.9557866199475638,
+    Smile_R: 0.1998478356442873}
+- vis_C-D-G-K-N: {Jaw_Open: 0.4611602561404426, Lip-Lower_C: 0.73, Lip-Lower_L: 0,
+    Lip-Lower_R: 0.8558277279682911, Lip-Upper_C: 0.6898192061356053, Lip-Upper_L: 0.602,
+    Lip-Upper_R: 0.386, Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873}
+- vis_O: {Jaw_Open: 0.8102261065393085, Lip-Lower_C: 0.7675869003683253, Lip-Lower_L: 0,
+    Lip-Lower_R: 1, Lip-Upper_C: 0.6231611825075596, Lip-Upper_L: 0.7112181897317977,
+    Lip-Upper_R: 0.1998478356442873, Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873}
+- vis_Sil: {Jaw_Open: 0.3, Lip-Lower_C: 0.73, Lip-Lower_L: 0.1331473546763511, Lip-Lower_R: 0.764,
+    Lip-Upper_C: 0.472, Lip-Upper_L: 0.602, Lip-Upper_R: 0.386, Smile_L: 0.9557866199475638,
+    Smile_R: 0.1998478356442873}
+- vis_E: {Jaw_Open: 0.6254265386810853, Lip-Lower_C: 0.3343097467860283, Lip-Lower_L: 0.09979711419238306,
+    Lip-Lower_R: 0.9558147634103595, Lip-Upper_C: 0.6231611825075596, Lip-Upper_L: 0.4332995190320638,
+    Lip-Upper_R: 0.6445177087638617, Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873}
+- vis_M: {Jaw_Open: 0.3379605442349605, Lip-Lower_C: 0.7675869003683253, Lip-Lower_L: 0,
+    Lip-Lower_R: 1, Lip-Upper_C: 0.24543238194863415, Lip-Upper_L: 0.7112181897317977,
+    Lip-Upper_R: 0.1998478356442873, Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873}
+- vis_U: {Jaw_Open: 0.7486262505865674, Lip-Lower_C: 0.27876139376265696, Lip-Lower_L: 0,
+    Lip-Lower_R: 1, Lip-Upper_C: 0.5676128294841882, Lip-Upper_L: 0.7334516833877766,
+    Lip-Upper_R: 0.16649759516031923, Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873}
+- vis_Q-W: {Jaw_Open: 0.48169354145802296, Lip-Lower_C: 0.73, Lip-Lower_L: 0, Lip-Lower_R: 1,
+    Lip-Upper_C: 0.4898451352514683, Lip-Upper_L: 0.7334516833877766, Lip-Upper_R: 0.16649759516031923,
+    Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873}
+- vis_L: {Jaw_Open: 0.604893253363505, Lip-Lower_C: 0.7675869003683253, Lip-Lower_L: 0,
+    Lip-Lower_R: 0.8891567397823139, Lip-Upper_C: 0.6231611825075596, Lip-Upper_L: 0.7112181897317977,
+    Lip-Upper_R: 0.1998478356442873, Smile_L: 0.9557866199475638, Smile_R: 0.1998478356442873}
