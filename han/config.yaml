@@ -535,7 +535,12 @@ pau2motors:
             topic: base_controller/command
         min: -2.5
         max: 2.5
-
+      function:
+        - name: quaternion2euler
+          axis: z
+        - name: linear
+          scale: -2.0
+          translate: 0
       neck1:
         binding:
           parser:
